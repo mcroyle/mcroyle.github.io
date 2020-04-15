@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/core/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://mcroyle.github.io/node/871" />
+<link rel="shortlink" href="https://mcroyle.github.io/node/871" />
+<link rel="revision" href="https://mcroyle.github.io/node/871" />
+<link rel="prev" href="/node/868" />
+<link rel="up" href="/node/868" />
+<link rel="next" href="/node/872" />
+
+    <title>6.4.1: Patterns for Drift Rounds | EGEE 401: Energy in a Changing World</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_c8uKrkdw3uTl-xXgGz0TtfMpOZq9ps2b3GoXRcXqFfo.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_7OHYn1hvCtUaQZAgXIpbrBKMnLnVqzoUVCI0pQtBnjw.css" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_Z5jMg7P_bjcW9iUzujI7oaechMyxQTUqZhHJ_aYSq04.css" />
+
+    
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+
+  </head>
+  <body class="layout-one-sidebar layout-sidebar-first path-node page-node-type-book">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page-wrapper">
+  <div id="page">
+    <header id="header" class="header" role="banner">
+      <div class="section layout-container clearfix">
+          <div class="region region-secondary-menu">
+    <nav role="navigation" aria-labelledby="block-bartik-account-menu-menu" id="block-bartik-account-menu" class="block block-menu navigation menu--account">
+            
+  <h2 class="visually-hidden" id="block-bartik-account-menu-menu">User account menu</h2>
+  
+
+      <div class="content">
+        <div class="menu-toggle-target menu-toggle-target-show" id="show-block-bartik-account-menu"></div>
+    <div class="menu-toggle-target" id="hide-block-bartik-account-menu"></div>
+    <a class="menu-toggle" href="#show-block-bartik-account-menu">Show &mdash; User account menu</a>
+    <a class="menu-toggle menu-toggle--hide" href="#hide-block-bartik-account-menu">Hide &mdash; User account menu</a>
+    
+              <ul class="clearfix menu">
+                    <li class="menu-item">
+        <a href="/user/login" data-drupal-link-system-path="user/login">Log in</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+</nav>
+
+  </div>
+
+          <div class="clearfix region region-header">
+    <div id="block-bartik-branding" class="clearfix site-branding block block-system block-system-branding-block">
+  
+    
+        <a href="/" rel="home" class="site-branding__logo">
+      <img src="/core/themes/bartik/logo.svg" alt="Home" />
+    </a>
+        <div class="site-branding__text">
+              <div class="site-branding__name">
+          <a href="/" title="Home" rel="home">EGEE 401: Energy in a Changing World</a>
+        </div>
+                </div>
+  </div>
+
+  </div>
+
+          <div class="region region-primary-menu">
+    <nav role="navigation" aria-labelledby="block-bartik-main-menu-menu" id="block-bartik-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-bartik-main-menu-menu">Main navigation</h2>
+  
+
+      <div class="content">
+        <div class="menu-toggle-target menu-toggle-target-show" id="show-block-bartik-main-menu"></div>
+    <div class="menu-toggle-target" id="hide-block-bartik-main-menu"></div>
+    <a class="menu-toggle" href="#show-block-bartik-main-menu">Show &mdash; Main navigation</a>
+    <a class="menu-toggle menu-toggle--hide" href="#hide-block-bartik-main-menu">Hide &mdash; Main navigation</a>
+    
+              <ul class="clearfix menu">
+                    <li class="menu-item">
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+</nav>
+
+  </div>
+
+      </div>
+    </header>
+          <div class="highlighted">
+        <aside class="layout-container section clearfix" role="complementary">
+            <div class="region region-highlighted">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+        </aside>
+      </div>
+            <div id="main-wrapper" class="layout-main-wrapper layout-container clearfix">
+      <div id="main" class="layout-main clearfix">
+          <div class="region region-breadcrumb">
+    <div id="block-bartik-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+      <div class="content">
+        <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ol>
+          <li>
+                  <a href="/">Home</a>
+              </li>
+        </ol>
+  </nav>
+
+    </div>
+  </div>
+
+  </div>
+
+        <main id="content" class="column main-content" role="main">
+          <section class="section">
+            <a id="main-content" tabindex="-1"></a>
+              <div class="region region-content">
+    <div id="block-bartik-page-title--5" class="block block-core block-page-title-block">
+  
+    
+      <div class="content">
+      
+  <h1 class="title page-title"><span class="field field--name-title field--type-string field--label-hidden">6.4.1: Patterns for Drift Rounds</span>
+</h1>
+
+
+    </div>
+  </div>
+<div id="block-bartik-content--5" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      
+<article data-history-node-id="871" role="article" about="/node/871" class="node node--type-book node--view-mode-full clearfix">
+  <header>
+    
+          
+          <div class="node__meta">
+        <article typeof="schema:Person" about="/user/178" class="profile">
+  </article>
+
+        <span>
+          Submitted by <span class="field field--name-uid field--type-entity-reference field--label-hidden"><span lang="" about="/user/178" typeof="schema:Person" property="schema:name" datatype="">mrs110</span></span>
+ on <span class="field field--name-created field--type-created field--label-hidden">Mon, 08/07/2017 - 13:03</span>
+        </span>
+        
+      </div>
+      </header>
+  <div class="node__content clearfix">
+    
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h3>6.4.1: Patterns for Drift Rounds</h3>
+
+<p>The overall pattern will be based on the desired shape of the blasted opening. If we are driving headings that will be used by people and equipment to access the ore and conduct the mining operation, we will strive to create openings that will be stable over time, and be of dimensions that meet certain requirements. These requirements may be openings of a minimum height and width to allow equipment access, or the dimensions may be based on production requirements. And there could be other considerations. Rectangular openings have sharp corners that tend to concentrate stresses, whereas elliptical or circular openings do a better job distributing the stress around the opening, and as such, they are more stable. The strength of the rock and the expected life of a particular opening will influence the shape as well as the dimensions of the opening.</p>
+
+<p>The cross-section shown here is typical, but regardless, the content that we are going to cover applies to other shapes as well. Notice that the cross-section is divided into named regions. This can be applied to cross-sections of almost any size and shape.</p>
+
+<div class="img-center"><img alt="Cross section, divided into named regions. See caption and text above image." src="/mng230/sites/www.e-education.psu.edu.mng230/files/Lesson_06/Images/CrossSection.jpg" />
+	<div class="img-caption">Figure 6.4.1: Cross section, divided into named regions: A. Cut, B. Stoping, C. Stoping, D. Contour, E. Lifters.</div>
+
+	<div class="img-credit"></div>
+</div>
+
+<p>The purpose of the <em><strong>Cut</strong></em> is to create a second free face, which we introduced in the last section of this lesson. There are two general types of cuts: <em><strong>parallel cuts</strong></em> and <em><strong>angled cuts</strong></em>.</p>
+
+<p>The most common type of <strong><em>parallel cut</em></strong> is known as the <em>burn cut</em>. <em>Burn</em> is the shortened name for the <em>Viburnum Cut</em>; so-named because it was developed for use in the lead-zinc mines found in the Viburnum trend in Missouri, back in the 1950s. Its use quickly spread to many underground mines. The burn cut consists of parallel holes, sometimes of different diameters, and always some of the holes are unloaded. The unloaded holes within the burn are referred to as <em>relief holes</em>. Sometimes, a few angled holes are placed within the burn, but this shouldn’t be confused with the other major type of cut, i.e., <em>the angled cut</em>.</p>
+
+<p>Here are examples of <em>burn cuts</em>. The loaded holes are shaded black. The numbers adjacent to the hole refer to the firing sequence. The spacing between the holes is shown for most of them, although the diameter is not. The diameter of the holes would be the same as used for the other regions of the pattern, with the possible exception that the unloaded holes are occasionally of larger diameter. For example, if the loaded holes are around 2”, the unloaded holes of the burn cut may be 4”.</p>
+
+<p>The unloaded holes provide an initial, although quite small, free face. The holes labeled “1” are fired first. The expanding rock moves toward the center and also out in front of the free face. The result is an expanded second free face, and the holes labeled “2” are then fired. They have the benefit of the larger free face, and after they have done their job, there is a sufficiently large free face in the center for the other holes to be fired.</p>
+
+<div class="img-center"><img alt="Typical burn cuts used in underground mining. See text above image." src="/mng230/sites/www.e-education.psu.edu.mng230/files/Lesson_06/Images/BurnCut.jpg" />
+	<div class="img-caption">Figure 6.4.2: Typical burn cuts used in underground mining</div>
+
+	<div class="img-credit"></div>
+</div>
+
+<p>Here is an example of the most widely used <strong><em>angled cut</em></strong>, which is known as the <em>V-Cut</em>. All of the holes are loaded with explosive, which is a contrast to the burn cut. The V-Cut shown here includes a baby V, which is also fairly common. The number adjacent to the holes designate the millisecond (ms) delay for the firing of that hole.</p>
+
+<div class="img-center"><img alt="See caption and text surrounding image." src="/mng230/sites/www.e-education.psu.edu.mng230/files/Lesson_06/Images/V-Cut.jpg" style="width: 554px; height: 951px;" />
+	<div class="img-caption">Figure 6.4.3: The V cut. This diagram illustrates a typical drift round in medium-hard rock using four-hole vertical V cut with two-hole baby V cut and MS delay electric blasting caps.</div>
+
+	<div class="img-credit"></div>
+</div>
+
+<p>In this example of the V-cut, the baby V fires first, and creates a small free face for the firing of the two large Vs. Then, after the two large Vs have fired, there will be a sufficiently large free face to fire the remainder of the holes. Other variations of angled cuts include pyramidal and diamond-shaped arrangements.</p>
+
+<p>A particular cut will tend to give better and more consistent results in a given deposit. Most underground limestone mines, for example, will settle on a <em>V-cut</em> after trying the<em> burn</em> and <em>V-cuts</em>, whereas in the lead mines in Missouri, there is a decided preference for the <em>burn cut</em>. One of the more important deciding factors will be the <em>pull</em> that can be achieved with the round. <em>Pull</em> refers to how far back into the face you can successfully blast. If we drill a hole, say 12’ back into the face, can we get good fragmentation at the back end of the hole? As you attempt to drill further and further back into the face, it becomes increasingly difficult to achieve good fragmentation near the back of the hole. The distance that you can achieve good fragmentation is known as the <em>pull</em>. It’s important to monitor the <em>pull</em> closely because if a problem has crept into your workflow, whether it is a change in the geology, an inexperienced driller or blaster, or other problem, it will often show up first as a reduced <em>pull</em>.</p>
+
+<p>The <strong><em>stoping holes</em></strong> do most of the work of advancing the face, as they blast the most rock. These holes will begin to fire as soon as the cut holes have cleared, and they will fire in a sequence such that the holes closest to the cut will fire first, and then those further away will fire in sequence. The idea behind the sequencing of the stoping holes is to ensure a good free face for the blasted material to move through.</p>
+
+<p><em><strong>Lifters</strong></em> are not always used, but their purpose is to help ensure good fragmentation at the bottom of the drift, as this will allow for an even surface that will facilitate movement of people and equipment through the drift. Lifters can also help to throw the blasted material out into the drift to improve the ease of loading.</p>
+
+<p>The holes in the <strong><em>Contour region</em></strong> are designed to ensure a smooth surface and to minimize overbreak. The contour region is properly defined by two rows of holes. The inner row is known as the <em>buffer row,</em> and the outer row at the perimeter of the opening is known as the <em>contour row</em>. Research completed in recent years provides design guidance on how to minimize overbreak using the buffer and contour rows. However, this has yet to be widely adopted.</p>
+
+<p>The delay sequence for a drift heading using a burn cut is shown below. Note that the burn has two angled holes; and also note that the contour region only has one row of holes around the perimeter, reflecting the longstanding practice.</p>
+
+<div class="img-center"><img alt="See caption and text above image." src="/mng230/sites/www.e-education.psu.edu.mng230/files/Lesson_06/Images/DriftTimingSequence.jpg" />
+	<div class="img-caption">Figure 6.4.4: A typical 10-foot by 10-foot heading with the delay sequence for each hole.</div>
+
+	<div class="img-credit"></div>
+</div>
+
+<p>The process of minimizing overbreak is referred to as controlled blasting and is documented in the following publication: NIOSH Report of Investigations 9691, <a href="/mng230/sites/www.e-education.psu.edu.mng230/files/Lesson_06/Images/RI%209691%20Controlled%20Blasting.pdf"><em>A New Perimeter Control Blast Design Concept For Underground Metal/Nonmetal Drifting Applications</em></a>, Stephen R. Iverson, William A. Hustrulid, and Jeffrey C. Johnson.</p>
+
+<p>We are not going to go through the details of the design in class, but I want you to understand conceptually the process. You have the publication that you can use in the future to design a controlled blast.</p>
+
+<p>This approach requires that significantly more holes be drilled and loaded than in the traditional approach. However, it is rarely about first costs only! You have to look at costs over time, and then make an informed decision. While the first costs of this approach are higher, the improved ground control should yield larger savings over time by eliminating the extensive damage zone into the back and walls.</p>
+
+<p>This approach allows a burden to be calculated between the buffer row and contour row, such that the <em>damage radius</em> from the buffer row does not extend beyond the contour row.</p>
+
+<div class="img-center"><img alt="See text above image" src="/mng230/sites/www.e-education.psu.edu.mng230/files/Lesson_06/Images/DamageRadius.jpg" />
+	<div class="img-caption">Figure 6.4.5:</div>
+
+	<div class="img-credit"></div>
+</div>
+
+<p>The spacing of the buffer and contour holes is based on the <em>damage radius</em>, Rd, as shown here.</p>
+
+<div class="img-center"><img alt="See text surrounding image" src="/mng230/sites/www.e-education.psu.edu.mng230/files/Lesson_06/Images/DamageRadius2.jpg" />
+	<div class="img-caption">Figure 6.4.6:</div>
+
+	<div class="img-credit"></div>
+</div>
+
+<p>After the buffer and contour holes have been located, the lifters are added. Next, the cut holes are placed, and then, finally, the stoping holes are located. Design guidance for these holes is given in the report.</p>
+
+<p>It is important to note that the contour holes are very lightly loaded. The function of these holes is to trim the wall at that point, not to create additional crushing and fracturing. This is known as decoupling of those holes. There are various ways to load these holes to achieve the desired effect. One way is to use a detonating cord in the hole instead of a blasting agent such as an emulsion or ANFO. Another is to use <em>trim cartridges</em>, i.e., products specifically developed for this purpose.</p>
+
+<p>I think I’ll close this discussion on blast rounds for drifting by showing you a short video clip. The blast will be repeated several times. You’ll want to try to determine the type of pattern that is being used, based on your observation of the detonating cord.</p>
+
+<div class="img-center">
+	<div class="video-wrapper"><iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube-nocookie.com/embed/0so7-96YAZU?rel=0" width="560"></iframe></div>
+
+	<div class="img-caption">Underground Firing (1:30)</div>
+
+	<div class="img-credit">Source: Orica</div>
+</div>
+</div>
+      
+  <nav id="book-navigation-2" class="book-navigation" role="navigation" aria-labelledby="book-label-2">
+    
+          <h2 class="visually-hidden" id="book-label-2">Book traversal links for 6.4.1: Patterns for Drift Rounds</h2>
+      <ul class="book-pager">
+              <li class="book-pager__item book-pager__item--previous">
+          <a href="/node/868" rel="prev" title="Go to previous page"><b>‹</b> Lesson 6.4: Blasting Patterns</a>
+        </li>
+                    <li class="book-pager__item book-pager__item--center">
+          <a href="/node/868" title="Go to parent page">Up</a>
+        </li>
+                    <li class="book-pager__item book-pager__item--next">
+          <a href="/node/872" rel="next" title="Go to next page">6.4.2: Patterns for Bench Blasting <b>›</b></a>
+        </li>
+          </ul>
+      </nav>
+
+  </div>
+</article>
+
+    </div>
+  </div>
+
+  </div>
+
+          </section>
+        </main>
+                  <div id="sidebar-first" class="column sidebar">
+            <aside class="section" role="complementary">
+                <div class="region region-sidebar-first">
+    <div class="search-block-form block block-search container-inline" data-drupal-selector="search-block-form" id="block-bartik-search" role="search">
+  
+      <h2>Search</h2>
+    
+    <div class="content container-inline">
+        <form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8" class="search-form search-block-form">
+  <div class="js-form-item form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input class="search-form__submit button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" />
+</div>
+
+</form>
+
+  
+  </div>
+</div>
+<div id="block-booknavigation--5" class="block block-book block-book-navigation">
+  
+    
+      <div class="content">
+      
+              <ul class="menu">
+                    <li class="menu-item menu-item--collapsed">
+        <a href="/node/3" hreflang="und">Module 1: Introduction to the Mining Industry</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/6" hreflang="und">Module 2: The Life Cycle of a Mine and Related Matters</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/517" hreflang="und">Module 3: Prospecting and Exploration</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/524" hreflang="und">Module 4: Development</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/525" hreflang="und">Module 5: Unit and Auxiliary Operations</a>
+              </li>
+                <li class="menu-item menu-item--expanded menu-item--active-trail">
+        <a href="/node/526" hreflang="und">Module 6: Explosives and Blasting</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/node/813" hreflang="und">Module 6 Overview</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/546" hreflang="und">Lesson 6.1: The Big Bang</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/684" hreflang="und">Lesson 6.2: Explosives</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/867" hreflang="und">Lesson 6.3: The Design of Blast Rounds</a>
+              </li>
+                <li class="menu-item menu-item--expanded menu-item--active-trail">
+        <a href="/node/868" hreflang="und">Lesson 6.4: Blasting Patterns</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--active-trail">
+        <a href="/node/871" hreflang="und">6.4.1: Patterns for Drift Rounds</a>
+              </li>
+                <li class="menu-item">
+        <a href="/node/872" hreflang="und">6.4.2: Patterns for Bench Blasting</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/873" hreflang="und">Lesson 6.5: Fire in the Hole</a>
+              </li>
+                <li class="menu-item">
+        <a href="/node/549" hreflang="und">Module 6 Summary</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/527" hreflang="und">Module 7: Surface Mining</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/694" hreflang="und">Module 8: Underground Mine Development</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/917" hreflang="und">Module 9: Sustainability</a>
+              </li>
+        </ul>
+  
+
+
+    </div>
+  </div>
+
+  </div>
+
+            </aside>
+          </div>
+                      </div>
+    </div>
+        <footer class="site-footer">
+      <div class="layout-container">
+                          <div class="site-footer__bottom">
+              <div class="region region-footer-fifth">
+    <nav role="navigation" aria-labelledby="block-bartik-footer-menu" id="block-bartik-footer" class="block block-menu navigation menu--footer">
+            
+  <h2 class="visually-hidden" id="block-bartik-footer-menu">Footer menu</h2>
+  
+
+      <div class="content">
+        <div class="menu-toggle-target menu-toggle-target-show" id="show-block-bartik-footer"></div>
+    <div class="menu-toggle-target" id="hide-block-bartik-footer"></div>
+    <a class="menu-toggle" href="#show-block-bartik-footer">Show &mdash; Footer menu</a>
+    <a class="menu-toggle menu-toggle--hide" href="#hide-block-bartik-footer">Hide &mdash; Footer menu</a>
+    
+              <ul class="clearfix menu">
+                    <li class="menu-item">
+        <a href="/contact" data-drupal-link-system-path="contact">Contact</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+</nav>
+<div id="block-bartik-powered" role="complementary" class="block block-system block-system-powered-by-block">
+  
+    
+      <div class="content">
+      <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>
+    </div>
+  </div>
+
+  </div>
+
+          </div>
+              </div>
+    </footer>
+  </div>
+</div>
+
+  </div>
+
+    
+    
+  </body>
+</html>

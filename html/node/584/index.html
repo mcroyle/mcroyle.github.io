@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/core/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://mcroyle.github.io/node/584" />
+<link rel="shortlink" href="https://mcroyle.github.io/node/584" />
+<link rel="revision" href="https://mcroyle.github.io/node/584" />
+<link rel="prev" href="/node/583" />
+<link rel="up" href="/node/583" />
+<link rel="next" href="/node/585" />
+
+    <title>3.2.1: Step 1 -- Preparing the Data for Estimating the Reserve | EGEE 401: Energy in a Changing World</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_c8uKrkdw3uTl-xXgGz0TtfMpOZq9ps2b3GoXRcXqFfo.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_7OHYn1hvCtUaQZAgXIpbrBKMnLnVqzoUVCI0pQtBnjw.css" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_Z5jMg7P_bjcW9iUzujI7oaechMyxQTUqZhHJ_aYSq04.css" />
+
+    
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+
+  </head>
+  <body class="layout-one-sidebar layout-sidebar-first path-node page-node-type-book">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page-wrapper">
+  <div id="page">
+    <header id="header" class="header" role="banner">
+      <div class="section layout-container clearfix">
+          <div class="region region-secondary-menu">
+    <nav role="navigation" aria-labelledby="block-bartik-account-menu-menu" id="block-bartik-account-menu" class="block block-menu navigation menu--account">
+            
+  <h2 class="visually-hidden" id="block-bartik-account-menu-menu">User account menu</h2>
+  
+
+      <div class="content">
+        <div class="menu-toggle-target menu-toggle-target-show" id="show-block-bartik-account-menu"></div>
+    <div class="menu-toggle-target" id="hide-block-bartik-account-menu"></div>
+    <a class="menu-toggle" href="#show-block-bartik-account-menu">Show &mdash; User account menu</a>
+    <a class="menu-toggle menu-toggle--hide" href="#hide-block-bartik-account-menu">Hide &mdash; User account menu</a>
+    
+              <ul class="clearfix menu">
+                    <li class="menu-item">
+        <a href="/user/login" data-drupal-link-system-path="user/login">Log in</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+</nav>
+
+  </div>
+
+          <div class="clearfix region region-header">
+    <div id="block-bartik-branding" class="clearfix site-branding block block-system block-system-branding-block">
+  
+    
+        <a href="/" rel="home" class="site-branding__logo">
+      <img src="/core/themes/bartik/logo.svg" alt="Home" />
+    </a>
+        <div class="site-branding__text">
+              <div class="site-branding__name">
+          <a href="/" title="Home" rel="home">EGEE 401: Energy in a Changing World</a>
+        </div>
+                </div>
+  </div>
+
+  </div>
+
+          <div class="region region-primary-menu">
+    <nav role="navigation" aria-labelledby="block-bartik-main-menu-menu" id="block-bartik-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-bartik-main-menu-menu">Main navigation</h2>
+  
+
+      <div class="content">
+        <div class="menu-toggle-target menu-toggle-target-show" id="show-block-bartik-main-menu"></div>
+    <div class="menu-toggle-target" id="hide-block-bartik-main-menu"></div>
+    <a class="menu-toggle" href="#show-block-bartik-main-menu">Show &mdash; Main navigation</a>
+    <a class="menu-toggle menu-toggle--hide" href="#hide-block-bartik-main-menu">Hide &mdash; Main navigation</a>
+    
+              <ul class="clearfix menu">
+                    <li class="menu-item">
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+</nav>
+
+  </div>
+
+      </div>
+    </header>
+          <div class="highlighted">
+        <aside class="layout-container section clearfix" role="complementary">
+            <div class="region region-highlighted">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+        </aside>
+      </div>
+            <div id="main-wrapper" class="layout-main-wrapper layout-container clearfix">
+      <div id="main" class="layout-main clearfix">
+          <div class="region region-breadcrumb">
+    <div id="block-bartik-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+      <div class="content">
+        <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ol>
+          <li>
+                  <a href="/">Home</a>
+              </li>
+        </ol>
+  </nav>
+
+    </div>
+  </div>
+
+  </div>
+
+        <main id="content" class="column main-content" role="main">
+          <section class="section">
+            <a id="main-content" tabindex="-1"></a>
+              <div class="region region-content">
+    <div id="block-bartik-page-title--4" class="block block-core block-page-title-block">
+  
+    
+      <div class="content">
+      
+  <h1 class="title page-title"><span class="field field--name-title field--type-string field--label-hidden">3.2.1: Step 1 -- Preparing the Data for Estimating the Reserve</span>
+</h1>
+
+
+    </div>
+  </div>
+<div id="block-bartik-content--4" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      
+<article data-history-node-id="584" role="article" about="/node/584" class="node node--type-book node--view-mode-full clearfix">
+  <header>
+    
+          
+          <div class="node__meta">
+        <article typeof="schema:Person" about="/user/31" class="profile">
+  </article>
+
+        <span>
+          Submitted by <span class="field field--name-uid field--type-entity-reference field--label-hidden"><span lang="" about="/user/31" typeof="schema:Person" property="schema:name" datatype="">sxr133</span></span>
+ on <span class="field field--name-created field--type-created field--label-hidden">Thu, 05/16/2013 - 13:34</span>
+        </span>
+        
+      </div>
+      </header>
+  <div class="node__content clearfix">
+    
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h3>3.2.1: Step 1 -- Preparing the Data for Estimating the Reserve</h3>
+
+<p>As a starting point, you’re likely to have the following:</p>
+
+<ul>
+	<li>a table of the coordinates of each drill hole,</li>
+	<li>the drill log for each hole, and</li>
+	<li>analytical results from each hole.</li>
+</ul>
+
+<p>Here are examples of each of these.</p>
+
+<p><strong>The table of coordinates may look like this:</strong></p>
+
+<table class="table-data" summary="A summary of this table's information">
+	<caption>Coordinates for each drill hole</caption>
+	<thead>
+		<tr>
+			<th scope="col">Corehole</th>
+			<th scope="col">Northing</th>
+			<th scope="col">Easting</th>
+			<th scope="col">Surface Elevation</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>EM0402</td>
+			<td>200701.67</td>
+			<td>1331172.00</td>
+			<td>1265.26</td>
+		</tr>
+		<tr>
+			<td>EM0403</td>
+			<td>201757.90</td>
+			<td>1334065.09</td>
+			<td>1325.60</td>
+		</tr>
+		<tr>
+			<td>EM0404</td>
+			<td>199503.09</td>
+			<td>1339026.61</td>
+			<td>1177.98</td>
+		</tr>
+		<tr>
+			<td>EM0405</td>
+			<td>199089.71</td>
+			<td>1340085.64</td>
+			<td>1380.07</td>
+		</tr>
+		<tr>
+			<td>EM0406</td>
+			<td>198331.70</td>
+			<td>1342255.76</td>
+			<td>1348.82</td>
+		</tr>
+		<tr>
+			<td>EM0407</td>
+			<td>198603.62</td>
+			<td>1342968.52</td>
+			<td>1151.73</td>
+		</tr>
+		<tr>
+			<td>EM0408</td>
+			<td>197813.63</td>
+			<td>1343153.43</td>
+			<td>1328.48</td>
+		</tr>
+		<tr>
+			<td>EM0409</td>
+			<td>200507.09</td>
+			<td>1332119.20</td>
+			<td>1155.50</td>
+		</tr>
+		<tr>
+			<td>EM0410</td>
+			<td>199622.88</td>
+			<td>1333356.05</td>
+			<td>1286.98</td>
+		</tr>
+		<tr>
+			<td>EM0411</td>
+			<td>197512.23</td>
+			<td>1341681.96</td>
+			<td>1331.86</td>
+		</tr>
+		<tr>
+			<td>EM0412</td>
+			<td>198870.72</td>
+			<td>1332353.55</td>
+			<td>1108.05</td>
+		</tr>
+		<tr>
+			<td>EM0413</td>
+			<td>198461.45</td>
+			<td>1339504.49</td>
+			<td>1394.94</td>
+		</tr>
+		<tr>
+			<td>EM0414</td>
+			<td>197758.15</td>
+			<td>1338897.31</td>
+			<td>1333.38</td>
+		</tr>
+		<tr>
+			<td>EM0415</td>
+			<td>198971.83</td>
+			<td>1338532.48</td>
+			<td>1162.52</td>
+		</tr>
+		<tr>
+			<td>EM0416</td>
+			<td>198192.38</td>
+			<td>1337999.37</td>
+			<td>1097.55</td>
+		</tr>
+		<tr>
+			<td>EM0417</td>
+			<td>198754.13</td>
+			<td>1337377.32</td>
+			<td>1115.72</td>
+		</tr>
+		<tr>
+			<td>EM0418</td>
+			<td>199260.00</td>
+			<td>1336708.65</td>
+			<td>1239.12</td>
+		</tr>
+		<tr>
+			<td>EM0418A</td>
+			<td>198346.95</td>
+			<td>1337042.98</td>
+			<td>1139.57</td>
+		</tr>
+		<tr>
+			<td>EM0419</td>
+			<td>198830.00</td>
+			<td>1335962.78</td>
+			<td>1173.48</td>
+		</tr>
+		<tr>
+			<td>EM0420</td>
+			<td>199610.69</td>
+			<td>1335682.11</td>
+			<td>1354.33</td>
+		</tr>
+		<tr>
+			<td>EM0421</td>
+			<td>199762.29</td>
+			<td>1334786.93</td>
+			<td>1491.54</td>
+		</tr>
+		<tr>
+			<td>EM0422</td>
+			<td>199175.87</td>
+			<td>1334493.64</td>
+			<td>1484.68</td>
+		</tr>
+		<tr>
+			<td>EM0423</td>
+			<td>200162.85</td>
+			<td>1334193.59</td>
+			<td>1504.45</td>
+		</tr>
+		<tr>
+			<td>EM0432</td>
+			<td>197051.92</td>
+			<td>1335828.19</td>
+			<td>1269.23</td>
+		</tr>
+		<tr>
+			<td>EM0433</td>
+			<td>197654.10</td>
+			<td>1335366.00</td>
+			<td>1403.45</td>
+		</tr>
+		<tr>
+			<td>EM0436</td>
+			<td>197025.92</td>
+			<td>1337879.87</td>
+			<td>1089.72</td>
+		</tr>
+		<tr>
+			<td>EM0438</td>
+			<td>196709.76</td>
+			<td>1338854.59</td>
+			<td>1282.14</td>
+		</tr>
+		<tr>
+			<td>EM0439</td>
+			<td>196553.37</td>
+			<td>1339724.73</td>
+			<td>1144.93</td>
+		</tr>
+		<tr>
+			<td>EM0441</td>
+			<td>198178.28</td>
+			<td>1333567.06</td>
+			<td>1216.20</td>
+		</tr>
+		<tr>
+			<td>EM0442</td>
+			<td>195466.82</td>
+			<td>1341429.29</td>
+			<td>1224.64</td>
+		</tr>
+		<tr>
+			<td>EMO443</td>
+			<td>195512.30</td>
+			<td>1341984.05</td>
+			<td>1221.25</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Here is a section for a typical drill log.</strong> The complete drill log for this hole can be viewed here: <a href="/mng230/sites/www.e-education.psu.edu.mng230/files/Lesson_03/M3L2%20EM0405_Driller%27s%20Log.pdf">Driller’s Log.pdf</a>, and you should look at the full log.</p>
+
+<table class="table-data" summary="A summary of this table's information">
+	<caption>Continuation of drill hole no. EM-04-05<br />
+		Total depth of hole = 910.00 Feet</caption>
+	<thead>
+		<tr>
+			<th scope="col">Formation</th>
+			<th scope="col">Strata Thickness</th>
+			<th scope="col">Depth from Surface</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>BLACK SHALE</td>
+			<td>0.30</td>
+			<td>878.07</td>
+		</tr>
+		<tr>
+			<td>COAL</td>
+			<td>0.30</td>
+			<td>878.37</td>
+		</tr>
+		<tr>
+			<td>GRAY SHALE</td>
+			<td>0.90</td>
+			<td>879.27</td>
+		</tr>
+		<tr>
+			<td>COAL</td>
+			<td>3.37</td>
+			<td>882.64</td>
+		</tr>
+		<tr>
+			<td>DARK GRAY SHALE</td>
+			<td>0.02</td>
+			<td>882.66</td>
+		</tr>
+		<tr>
+			<td>COAL</td>
+			<td>0.10</td>
+			<td>882.76</td>
+		</tr>
+		<tr>
+			<td>DARK GRAY SHALE</td>
+			<td>0.02</td>
+			<td>882.78</td>
+		</tr>
+		<tr>
+			<td>COAL</td>
+			<td>3.56</td>
+			<td>886.34</td>
+		</tr>
+		<tr>
+			<td>DARK GRAY SHALE</td>
+			<td>0.16</td>
+			<td>886.50</td>
+		</tr>
+		<tr>
+			<td>LIMESTONE</td>
+			<td>0.20</td>
+			<td>886.70</td>
+		</tr>
+		<tr>
+			<td>GRAY SHALE</td>
+			<td>1.10</td>
+			<td>887.80</td>
+		</tr>
+		<tr>
+			<td>LIMESTONE</td>
+			<td>2.10</td>
+			<td>889.90</td>
+		</tr>
+		<tr>
+			<td>GRAY SHALE</td>
+			<td>0.70</td>
+			<td>890.60</td>
+		</tr>
+		<tr>
+			<td>LIMESTONE</td>
+			<td>0.80</td>
+			<td>891.40</td>
+		</tr>
+		<tr>
+			<td>GRAY SHALE</td>
+			<td>9.10</td>
+			<td>900.50</td>
+		</tr>
+		<tr>
+			<td>BLACK SHALE</td>
+			<td>0.30</td>
+			<td>900.80</td>
+		</tr>
+		<tr>
+			<td>COAL</td>
+			<td>0.40</td>
+			<td>901.20</td>
+		</tr>
+		<tr>
+			<td>GRAY CALCAREOUS SHALE</td>
+			<td>1.20</td>
+			<td>902.40</td>
+		</tr>
+		<tr>
+			<td>GRAY SHALE</td>
+			<td>6.00</td>
+			<td>908.40</td>
+		</tr>
+		<tr>
+			<td>GRAY SANDY SHALE</td>
+			<td>0.70</td>
+			<td>909.10</td>
+		</tr>
+		<tr>
+			<td>GRAY SANDSTONE</td>
+			<td>0.40</td>
+			<td>909.50</td>
+		</tr>
+		<tr>
+			<td>GRAY SHALE</td>
+			<td>0.50</td>
+			<td>910.00</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>The analytical results</strong> will come from laboratory studies to determine the aforementioned parameters of interest. Here is an example taken from the lab results for the sample obtained from one drill hole.</p>
+
+<div class="img-center"><img alt="example of analytical results" src="/mng230/sites/www.e-education.psu.edu.mng230/files/images/analytical%20results.png" />
+	<div class="img-caption">Figure 3.2.1: Example of analytical results</div>
+
+	<div class="img-credit">SGS North America, Inc.</div>
+</div>
+
+<p>The complete lab report for this hole can be viewed here: <a href="/mng230/sites/www.e-education.psu.edu.mng230/files/Lesson_03/ReserveEstimation.pdf" target="_blank">Reserve Estimation.pdf</a></p>
+
+<p>There may be multiple lab reports. The example here focuses on the chemical characteristics of the coal. In many cases, we'll conduct physical tests on the cores to determine geotechnical parameters, e.g. compressive strength, on the ore as well as the rock around the orebody.</p>
+
+<p>We will want to build a database that contains the parameters of interest for each of the holes. If we are interested in determining the average grade, then our table will begin with two columns: drill hole number and the grade for the sample from that hole. Let's suppose that we have a property with 9 holes:</p>
+
+<table class="table-lettergrade" summary="organized data, by hole, for the purpose of recording parameters of interest">
+	<caption>Parameters of interest for each hole</caption>
+	<thead>
+		<tr>
+			<th scope="col">Hole #</th>
+			<th scope="col">Grade, %</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>5</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>9</td>
+			<td>4</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>We want the average grade for the deposit. Is the average grade equal to the arithmetic average, which is 3.33%?</p>
+
+<p>Are the holes spaced uniformly on a grid, like this?</p>
+
+<div class="img-center"><img alt="Box with 9 dots spaced evenly and numbered 1 to 9" src="/mng230/sites/www.e-education.psu.edu.mng230/files/Lesson_03/Images/Figure%201%20Module%203%20Lesson%202.png" />
+	<div class="img-caption">Figure 3.2.2:  Boundary and holes</div>
+
+	<div class="img-credit">Credit: J. Kohler, © Penn State University, is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a></div>
+</div>
+
+<p>If so, it will be easy to define an area around each hole and then to say that everything within that area has the same properties as those found in the drill hole. Let's draw a box around hole number 5 to illustrate this. Shortly we'll refer to this area as an area of influence.</p>
+
+<div class="img-center">
+	<div class="img-center"><img alt="9 equally spaced dots in a square numbered starting horizontally.  Number 5 has a box around it." src="/mng230/sites/www.e-education.psu.edu.mng230/files/Lesson_03/Images/Fig%202%20Mod%203%20Lesson%202.png" />
+		<div class="img-caption">Figure 3.2.3:  Boundary showing center hole.</div>
+
+		<div class="img-credit">Credit: J. Kohler, © Penn State University, is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a></div>
+	</div>
+
+	<p>If the area around each hole were identical, then it would seem reasonable to say that the average grade of this orebody equals the arithmetic average of 3.33%. But wait a minute! We've said nothing about the thickness of the orebody at each hole. Assuming the thickness is identical at each hole, then each hole will represent an identical volume of ore, and computing the arithmetic average yields the correct average grade for the orebody.  </p>
+
+	<p>However, it's rare that the orebody thickness would be the same at each hole. For the purposes of this example, let's assume a more realistic case in which the thicknesses vary from hole-to-hole. Logically then, a hole through a thicker section of the orebody will represent a greater volume of ore than a hole through a thinner section. If we simply average the two holes together, we will arrive at an incorrect average grade because we have not accounted for the larger contribution of the one hole into the total. We can correct this by using a weighted average, in which the grade of the hole is increased or decreased to reflect the volume that it represents.</p>
+</div>
+</div>
+      
+  <nav id="book-navigation-2" class="book-navigation" role="navigation" aria-labelledby="book-label-2">
+    
+          <h2 class="visually-hidden" id="book-label-2">Book traversal links for 3.2.1: Step 1 -- Preparing the Data for Estimating the Reserve</h2>
+      <ul class="book-pager">
+              <li class="book-pager__item book-pager__item--previous">
+          <a href="/node/583" rel="prev" title="Go to previous page"><b>‹</b> Lesson 3.2: Reserve Estimation</a>
+        </li>
+                    <li class="book-pager__item book-pager__item--center">
+          <a href="/node/583" title="Go to parent page">Up</a>
+        </li>
+                    <li class="book-pager__item book-pager__item--next">
+          <a href="/node/585" rel="next" title="Go to next page">3.2.2: The Concept of an Area or Volume of Influence <b>›</b></a>
+        </li>
+          </ul>
+      </nav>
+
+  </div>
+</article>
+
+    </div>
+  </div>
+
+  </div>
+
+          </section>
+        </main>
+                  <div id="sidebar-first" class="column sidebar">
+            <aside class="section" role="complementary">
+                <div class="region region-sidebar-first">
+    <div class="search-block-form block block-search container-inline" data-drupal-selector="search-block-form" id="block-bartik-search" role="search">
+  
+      <h2>Search</h2>
+    
+    <div class="content container-inline">
+        <form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8" class="search-form search-block-form">
+  <div class="js-form-item form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input class="search-form__submit button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" />
+</div>
+
+</form>
+
+  
+  </div>
+</div>
+<div id="block-booknavigation--4" class="block block-book block-book-navigation">
+  
+    
+      <div class="content">
+      
+              <ul class="menu">
+                    <li class="menu-item menu-item--collapsed">
+        <a href="/node/3" hreflang="und">Module 1: Introduction to the Mining Industry</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/6" hreflang="und">Module 2: The Life Cycle of a Mine and Related Matters</a>
+              </li>
+                <li class="menu-item menu-item--expanded menu-item--active-trail">
+        <a href="/node/517" hreflang="und">Module 3: Prospecting and Exploration</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/node/810" hreflang="und">Module 3 Overview</a>
+              </li>
+                <li class="menu-item">
+        <a href="/node/519" hreflang="und">Lesson 3.1: General Concepts of Exploration</a>
+              </li>
+                <li class="menu-item menu-item--expanded menu-item--active-trail">
+        <a href="/node/583" hreflang="und">Lesson 3.2: Reserve Estimation</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--active-trail">
+        <a href="/node/584" hreflang="und">3.2.1: Step 1 -- Preparing the Data for Estimating the Reserve</a>
+              </li>
+                <li class="menu-item">
+        <a href="/node/585" hreflang="und">3.2.2: The Concept of an Area or Volume of Influence</a>
+              </li>
+                <li class="menu-item">
+        <a href="/node/638" hreflang="und">3.2.3: Overview of Reserve Estimation Methods</a>
+              </li>
+                <li class="menu-item">
+        <a href="/node/594" hreflang="und">3.2.4: Step 2 -- How Much of the Resource is a Reserve?</a>
+              </li>
+                <li class="menu-item">
+        <a href="/node/859" hreflang="und">3.2.5: Instantaneous Stripping Ratio</a>
+              </li>
+                <li class="menu-item">
+        <a href="/node/860" hreflang="und">3.2.6: Maximum Allowable Stripping Ratio (SRmax)</a>
+              </li>
+                <li class="menu-item">
+        <a href="/node/861" hreflang="und">3.2.7: Impact of Pit Expansion on Stripping Ratio</a>
+              </li>
+                <li class="menu-item">
+        <a href="/node/668" hreflang="und">3.2.8: The Concept of a Cutoff Grade</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/node/523" hreflang="und">Module 3 Summary </a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/524" hreflang="und">Module 4: Development</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/525" hreflang="und">Module 5: Unit and Auxiliary Operations</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/526" hreflang="und">Module 6: Explosives and Blasting</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/527" hreflang="und">Module 7: Surface Mining</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/694" hreflang="und">Module 8: Underground Mine Development</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/917" hreflang="und">Module 9: Sustainability</a>
+              </li>
+        </ul>
+  
+
+
+    </div>
+  </div>
+
+  </div>
+
+            </aside>
+          </div>
+                      </div>
+    </div>
+        <footer class="site-footer">
+      <div class="layout-container">
+                          <div class="site-footer__bottom">
+              <div class="region region-footer-fifth">
+    <nav role="navigation" aria-labelledby="block-bartik-footer-menu" id="block-bartik-footer" class="block block-menu navigation menu--footer">
+            
+  <h2 class="visually-hidden" id="block-bartik-footer-menu">Footer menu</h2>
+  
+
+      <div class="content">
+        <div class="menu-toggle-target menu-toggle-target-show" id="show-block-bartik-footer"></div>
+    <div class="menu-toggle-target" id="hide-block-bartik-footer"></div>
+    <a class="menu-toggle" href="#show-block-bartik-footer">Show &mdash; Footer menu</a>
+    <a class="menu-toggle menu-toggle--hide" href="#hide-block-bartik-footer">Hide &mdash; Footer menu</a>
+    
+              <ul class="clearfix menu">
+                    <li class="menu-item">
+        <a href="/contact" data-drupal-link-system-path="contact">Contact</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+</nav>
+<div id="block-bartik-powered" role="complementary" class="block block-system block-system-powered-by-block">
+  
+    
+      <div class="content">
+      <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>
+    </div>
+  </div>
+
+  </div>
+
+          </div>
+              </div>
+    </footer>
+  </div>
+</div>
+
+  </div>
+
+    
+    
+  </body>
+</html>

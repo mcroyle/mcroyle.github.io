@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/core/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://mcroyle.github.io/node/869" />
+<link rel="shortlink" href="https://mcroyle.github.io/node/869" />
+<link rel="revision" href="https://mcroyle.github.io/node/869" />
+<link rel="prev" href="/node/867" />
+<link rel="up" href="/node/867" />
+<link rel="next" href="/node/870" />
+
+    <title>6.3.1: Bench Blasting | EGEE 401: Energy in a Changing World</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_c8uKrkdw3uTl-xXgGz0TtfMpOZq9ps2b3GoXRcXqFfo.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_7OHYn1hvCtUaQZAgXIpbrBKMnLnVqzoUVCI0pQtBnjw.css" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_Z5jMg7P_bjcW9iUzujI7oaechMyxQTUqZhHJ_aYSq04.css" />
+
+    
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+
+  </head>
+  <body class="layout-one-sidebar layout-sidebar-first path-node page-node-type-book">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page-wrapper">
+  <div id="page">
+    <header id="header" class="header" role="banner">
+      <div class="section layout-container clearfix">
+          <div class="region region-secondary-menu">
+    <nav role="navigation" aria-labelledby="block-bartik-account-menu-menu" id="block-bartik-account-menu" class="block block-menu navigation menu--account">
+            
+  <h2 class="visually-hidden" id="block-bartik-account-menu-menu">User account menu</h2>
+  
+
+      <div class="content">
+        <div class="menu-toggle-target menu-toggle-target-show" id="show-block-bartik-account-menu"></div>
+    <div class="menu-toggle-target" id="hide-block-bartik-account-menu"></div>
+    <a class="menu-toggle" href="#show-block-bartik-account-menu">Show &mdash; User account menu</a>
+    <a class="menu-toggle menu-toggle--hide" href="#hide-block-bartik-account-menu">Hide &mdash; User account menu</a>
+    
+              <ul class="clearfix menu">
+                    <li class="menu-item">
+        <a href="/user/login" data-drupal-link-system-path="user/login">Log in</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+</nav>
+
+  </div>
+
+          <div class="clearfix region region-header">
+    <div id="block-bartik-branding" class="clearfix site-branding block block-system block-system-branding-block">
+  
+    
+        <a href="/" rel="home" class="site-branding__logo">
+      <img src="/core/themes/bartik/logo.svg" alt="Home" />
+    </a>
+        <div class="site-branding__text">
+              <div class="site-branding__name">
+          <a href="/" title="Home" rel="home">EGEE 401: Energy in a Changing World</a>
+        </div>
+                </div>
+  </div>
+
+  </div>
+
+          <div class="region region-primary-menu">
+    <nav role="navigation" aria-labelledby="block-bartik-main-menu-menu" id="block-bartik-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-bartik-main-menu-menu">Main navigation</h2>
+  
+
+      <div class="content">
+        <div class="menu-toggle-target menu-toggle-target-show" id="show-block-bartik-main-menu"></div>
+    <div class="menu-toggle-target" id="hide-block-bartik-main-menu"></div>
+    <a class="menu-toggle" href="#show-block-bartik-main-menu">Show &mdash; Main navigation</a>
+    <a class="menu-toggle menu-toggle--hide" href="#hide-block-bartik-main-menu">Hide &mdash; Main navigation</a>
+    
+              <ul class="clearfix menu">
+                    <li class="menu-item">
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+</nav>
+
+  </div>
+
+      </div>
+    </header>
+          <div class="highlighted">
+        <aside class="layout-container section clearfix" role="complementary">
+            <div class="region region-highlighted">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+        </aside>
+      </div>
+            <div id="main-wrapper" class="layout-main-wrapper layout-container clearfix">
+      <div id="main" class="layout-main clearfix">
+          <div class="region region-breadcrumb">
+    <div id="block-bartik-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+      <div class="content">
+        <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ol>
+          <li>
+                  <a href="/">Home</a>
+              </li>
+        </ol>
+  </nav>
+
+    </div>
+  </div>
+
+  </div>
+
+        <main id="content" class="column main-content" role="main">
+          <section class="section">
+            <a id="main-content" tabindex="-1"></a>
+              <div class="region region-content">
+    <div id="block-bartik-page-title" class="block block-core block-page-title-block">
+  
+    
+      <div class="content">
+      
+  <h1 class="title page-title"><span class="field field--name-title field--type-string field--label-hidden">6.3.1: Bench Blasting</span>
+</h1>
+
+
+    </div>
+  </div>
+<div id="block-bartik-content" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      
+<article data-history-node-id="869" role="article" about="/node/869" class="node node--type-book node--view-mode-full clearfix">
+  <header>
+    
+          
+          <div class="node__meta">
+        <article typeof="schema:Person" about="/user/178" class="profile">
+  </article>
+
+        <span>
+          Submitted by <span class="field field--name-uid field--type-entity-reference field--label-hidden"><span lang="" about="/user/178" typeof="schema:Person" property="schema:name" datatype="">mrs110</span></span>
+ on <span class="field field--name-created field--type-created field--label-hidden">Mon, 08/07/2017 - 13:00</span>
+        </span>
+        
+      </div>
+      </header>
+  <div class="node__content clearfix">
+    
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h3>6.3.1: Bench Blasting</h3>
+
+<p>Here is a sketch of a bench, showing a few boreholes, and the design variables. This bench could be in an underground or surface mine. Our goal will be to calculate values for many of the parameters shown on this diagram.</p>
+
+<div class="img-center"><img alt="Line drawing of a bench. See text above image for more." src="/mng230/sites/www.e-education.psu.edu.mng230/files/Lesson_06/Images/bench_sketch.jpg" />
+	<div class="img-caption">Figure 6.3.1: Sketch of a bench</div>
+
+	<div class="img-credit"></div>
+</div>
+
+<p>First, please take a look at each of these parameters, as labeled, and make sure that you understand what’s going on. There are two terms on the diagram that we have not yet defined. They are <em>toe</em> and <em>crest</em>. The toe is the bottom edge of the bench adjacent to the vertical wall. The crest is the top edge of the vertical or nearly vertical wall. This wall is often called the <em>highwall</em>.</p>
+
+<p>The equations for determining the burden, spacing, and stemming require that we know the blast hole diameter. So, looking at the diameter of the hole is a good first step. This diameter is defined by the diameter of the drill bit.</p>
+
+<p>For <em>benching</em>, hole diameters typically range from a low of 3” to a high of 15”. If we’re benching in an underground mine, we’ll have hole diameters near the low end of that range, and for surface applications, we’ll be in the middle to upper end of that range. Just as a comparison, I would mention that for <em>drifting</em>, the holes are likely to be as small as 1-3/4” and probably no bigger than 3-4”. In many cases, you will have historical practice or the practices at similar mines to narrow your choices. Other times, you will already own equipment capable of drilling a limited range of sizes, and your design will be bounded accordingly.</p>
+
+<p>Here’s an interesting chart, which is a compilation of the hole diameter and bench height at more than a hundred mine sites. As you can see, there is a rough relationship between the bench height and the diameter of drill used to create the blast hole for that bench.</p>
+
+<div class="img-center"><img alt="See accessible description for more" src="/mng230/sites/www.e-education.psu.edu.mng230/files/Lesson_06/Images/bench_height_hole_D.jpg" />
+	<div class="img-caption">Figure 6.3.2: Hole size to bench height ratio chart</div>
+
+	<div class="img-credit"></div>
+</div>
+
+<p>Given a hole diameter, D, we can calculate the burden, B, the spacing, S, and the stemming, T. We will use Ash's to calculate these parameters. Note, as indicated earlier, and as will become more apparent with the discussion of the “K” factors, these relationships provide guidance not absolute precision.</p>
+
+<div class="box-math"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"> <mtable columnalign="left"> <mtr> <mtd> <msub> <mtext>B=K</mtext> <mtext>B</mtext> </msub> <mtext>*D</mtext> </mtd> </mtr> <mtr> <mtd> <msub> <mtext>S=K</mtext> <mtext>S</mtext> </msub> <mtext>*B</mtext> </mtd> </mtr> <mtr> <mtd> <msub> <mtext>T=K</mtext> <mtext>T</mtext> </msub> <mtext>*B</mtext> </mtd> </mtr> </mtable> </math></div>
+
+<div class="box-math-clear"></div>
+
+<p>Let’s talk about these “K” factors.</p>
+
+<p>K<sub>B</sub> = 20 for underground application and 25 for surface, assuming a standard ANFO and a rock density of approximately 2.5 g/cm<sup>3</sup>. If the rock density is significantly greater or less than 2.5, then the factor should be examined. Here’s a table of typical rock densities for commonly mined minerals. As you can see for most of them, the suggested K<sub>B</sub> of 30 to 25 will be fine. The notable exceptions would include coal and peridotite. If you need to convert these to lb/ft<sup>3</sup>, multiply by 62.3.</p>
+
+<table class="table-data" summary="A summary of this table's information">
+	<caption>Table 6.3.1: Rock Densities for Commonly Mined Minerals</caption>
+	<thead>
+		<tr>
+			<th scope="col">Mineral</th>
+			<th scope="col">Rock Density</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Andesite</td>
+			<td>2.5-2.8</td>
+		</tr>
+		<tr>
+			<td>Basalt</td>
+			<td>2.8-3.0</td>
+		</tr>
+		<tr>
+			<td>Coal</td>
+			<td>1.1-1.4</td>
+		</tr>
+		<tr>
+			<td>Diabase</td>
+			<td>2.6-3.0</td>
+		</tr>
+		<tr>
+			<td>Diorite</td>
+			<td>2.8-3.0</td>
+		</tr>
+		<tr>
+			<td>Dolomite</td>
+			<td>2.8-2.9</td>
+		</tr>
+		<tr>
+			<td>Gabbro</td>
+			<td>2.7-3.3</td>
+		</tr>
+		<tr>
+			<td>Gneiss</td>
+			<td>2.6-2.9</td>
+		</tr>
+		<tr>
+			<td>Granite</td>
+			<td>2.6-2.7</td>
+		</tr>
+		<tr>
+			<td>Gypsum</td>
+			<td>2.3-2.8</td>
+		</tr>
+		<tr>
+			<td>Limestone</td>
+			<td>2.3-2.7</td>
+		</tr>
+		<tr>
+			<td>Marble</td>
+			<td>2.4-2.7</td>
+		</tr>
+		<tr>
+			<td>Mica schist</td>
+			<td>2.5-2.9</td>
+		</tr>
+		<tr>
+			<td>Peridotite</td>
+			<td>3.1-3.4</td>
+		</tr>
+		<tr>
+			<td>Quartzite</td>
+			<td>2.6-2.8</td>
+		</tr>
+		<tr>
+			<td>Rhyolite</td>
+			<td>2.4-2.6</td>
+		</tr>
+		<tr>
+			<td>Rock salt</td>
+			<td>2.5-2.6</td>
+		</tr>
+		<tr>
+			<td>Sandstone</td>
+			<td>2.2-2.8</td>
+		</tr>
+		<tr>
+			<td>Shale</td>
+			<td>2.4-2.8</td>
+		</tr>
+		<tr>
+			<td>Slate</td>
+			<td>2.7-2.8</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>If you are using an explosive, x, with a different bulk strength, the factor K<sub>B</sub> changes as follows:</p>
+
+<p>K<sub>Bx</sub> = K<sub>B</sub> * (B<sub>Sx</sub>)<sup>1/2</sup>, and B<sub>Sx</sub> is the bulk strength of explosive X.</p>
+
+<p>The other two factors are constants: K<sub>S</sub> = 1 to 1.3; and K<sub>T</sub> =0.7.</p>
+
+<p>And, that’s all there is to it!  More or less… this gives us a reasonable first approximation to laying out the pattern, or at least the burden and spacing along with the stemming. There are additional considerations, as well as sources of additional guidance.</p>
+
+<p>An important metric is powder factor, because it tells us something about how efficient our blast is, and if we know typical powder factors from other similar mines, we can use that number to back calculate some of our design parameters. <em>Powder factor</em> is defined as the weight of the explosive used divided by either the volume or weight of fragmented rock. Its units are lb/ton or lb/yd<sup>3</sup>, or in the metric system, kg/tonne or kg/m<sup>3</sup>.</p>
+
+<p>The calculation of the powder factor is straightforward. In practice, you will know how many pounds of explosive were used and you will know how many truck loads of rock were fragmented; and frankly, it is a good idea to keep close tabs on this in your operation. In the design stage, you can directly calculate the powder factor.</p>
+
+<p>The explosive charge per unit length of hole, M<sub>c</sub>, is: <math xmlns="http://www.w3.org/1998/Math/MathML"> <mrow> <mi>π</mi><mo>/</mo><mn>4</mn><mo>*</mo><mtext>D</mtext><mn>2</mn><mo>*</mo><msub> <mi>ρ</mi> <mrow> <mi>e</mi><mi>x</mi><mi>p</mi><mi>l</mi><mi>o</mi><mi>s</mi><mi>i</mi><mi>v</mi><mi>e</mi> </mrow> </msub> </mrow> </math> , where D is the hole diameter and <math xmlns="http://www.w3.org/1998/Math/MathML"> <mrow><msub> <mi>ρ</mi> <mrow> <mi>e</mi><mi>x</mi><mi>p</mi><mi>l</mi><mi>o</mi><mi>s</mi><mi>i</mi><mi>v</mi><mi>e</mi> </mrow></msub> </mrow></math> is the density of the explosive. The weight of the explosive in the hole is therefore the product of the charge per unit length and the <em>charged length</em> of the hole, L<sub>c</sub>. Remember that the entire hole is not filled with explosive. For example, the top 1/3 or so may be stemming; and in this case, the charged length would be 2/3 of the hole length.</p>
+
+<p>The volume of fragmented rock is taken to be the product of the blast area, A<sub>b</sub>, around the hole times the length of the hole. It is defined by a rectangle with the hole in the center. The two sides of the rectangle are  <math xmlns="http://www.w3.org/1998/Math/MathML"> <mrow> <mstyle scriptlevel="+1"> <mfrac bevelled="true"> <mn>1</mn> <mn>2</mn> </mfrac> </mstyle> <mtext>B</mtext><mo>+</mo><mstyle scriptlevel="+1"> <mfrac bevelled="true"> <mn>1</mn> <mn>2</mn> </mfrac> </mstyle> <mtext>B</mtext></mrow> </math>  and <math xmlns="http://www.w3.org/1998/Math/MathML"> <mrow> <mstyle scriptlevel="+1"> <mfrac bevelled="true"> <mn>1</mn> <mn>2</mn> </mfrac> </mstyle> <mtext>S</mtext><mo>+</mo><mstyle scriptlevel="+1"> <mfrac bevelled="true"> <mn>1</mn> <mn>2</mn> </mfrac> </mstyle> <mtext>S</mtext></mrow> </math> . Or simply, the area of the rectangle, A<sub>b</sub>, is the product of the burden, B, and spacing, S. The volume of broken rock is then the area, A<sub>b</sub>, times the length of the hole. If we want the weight of the blasted material, we need to multiply this volume by the density of the rock that will be broken by the blast.</p>
+
+<p>The <em>powder factor</em>, PF, is:</p>
+
+<div class="box-math"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"> <mrow> <mtext>PF</mtext><mo>=</mo><mo stretchy="false">(</mo><msub> <mtext>M</mtext> <mtext>c</mtext> </msub> <mo>*</mo><msub> <mtext>L</mtext> <mtext>c</mtext> </msub> <mo stretchy="false">)</mo><mo>/</mo><mo stretchy="false">(</mo><mtext>B*S*L</mtext><mo stretchy="false">)</mo><mtext> or </mtext><mo stretchy="false">(</mo><msub> <mtext>M</mtext> <mtext>c</mtext> </msub> <msub> <mrow> <mtext>*L</mtext></mrow> <mtext>c</mtext> </msub> <mo stretchy="false">)</mo><mo>/</mo><mo stretchy="false">(</mo><mtext>B*S*L</mtext><mo stretchy="false">)</mo><mo>*</mo><msub> <mi>ρ</mi> <mrow> <mtext>rock</mtext></mrow> </msub> </mrow> </math></div>
+
+<div class="box-math-caption">(Equation 6.3.3)</div>
+
+<div class="box-math-clear"></div>
+
+<p></p>
+
+<p>All right, we can calculate powder factor, and we understand why it is a useful metric to compute and monitor at our operation. Earlier, I mentioned that knowing factors at similar operations could be useful to us in the design stage. How so?</p>
+
+<p>If we have a known powder factor to start with, we can use that to determine a reasonable burden or spacing, which could be a good “check” on our first round of calculations. We can calculate M<sub>C</sub> directly based on the explosive that we are going to use and the hole diameter. As a starting point, we can assume that L<sub>c</sub> will be 70% of L. We know our bench height, so we know L. The remaining unknowns are B and S. Substituting, we have:</p>
+
+<p><math xmlns="http://www.w3.org/1998/Math/MathML"> <mrow> <mtext>PF</mtext><mo>=</mo><mo stretchy="false">(</mo><msub> <mtext>M</mtext> <mtext>c</mtext> </msub> <mo>*</mo><mn>0.7</mn><mtext>L</mtext><mo stretchy="false">)</mo><mo>/</mo><mo stretchy="false">(</mo><mtext>B*S*L</mtext><mo stretchy="false">)</mo></mrow> </math> and simplifying,</p>
+
+<p><math xmlns="http://www.w3.org/1998/Math/MathML"> <mrow> <mtext>PF</mtext><mo>=</mo><mo stretchy="false">(</mo><mn>0.7</mn><mo>*</mo><msub> <mtext>M</mtext> <mtext>c</mtext> </msub> <mo stretchy="false">)</mo><mo>/</mo><mo stretchy="false">(</mo><mtext>B*S</mtext><mo stretchy="false">)</mo></mrow> </math> , and rearranging,</p>
+
+<p><math xmlns="http://www.w3.org/1998/Math/MathML"> <mrow> <mtext>B*S</mtext><mo>=</mo><mn>0.7</mn><mo>*</mo><msub> <mtext>M</mtext> <mtext>c</mtext> </msub> <mo>/</mo><mtext>PF</mtext></mrow> </math></p>
+
+<p>You know M<sub>C</sub> and PF, but not B or S. However, you can compute the product of B&amp;S; and then, you can choose one, and solve for the other. At this point, you may be thinking: <em>but wait a minute! How is this helping me, because I still have to choose B or S</em>. True, but you are not doing so blindly. You could use B that you calculated earlier with Ash’s formula, plug that number into this equation, and voilà, you now have values for B and S. Or better yet, rather than using the B that you calculated, you might refer to a handbook where you can find burden-to-spacing ratios for many different scenarios. For example, such a table may list a typical S:B ratio of 1.25 for the type of mine of interest to you. Thus, for this ratio:</p>
+
+<div class="box-math"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"> <mrow> <mtext>S</mtext><mo>=</mo><mn>1.25</mn><mo>*</mo><mtext>B</mtext></mrow> </math></div>
+
+<div class="box-math-caption">(Equation 6.3.4)</div>
+
+<div class="box-math-clear"></div>
+
+<p></p>
+
+<p>Substituting this into the equation,</p>
+
+<p><math xmlns="http://www.w3.org/1998/Math/MathML"> <mrow> <mtext>B</mtext><mo>*</mo><mo stretchy="false">(</mo><mn>1.25</mn><mo>*</mo><mtext>B)=0</mtext><msub> <mrow> <mtext>.7*M</mtext></mrow> <mtext>c</mtext> </msub> <mtext>/PF</mtext></mrow> </math> , and simplifying, we have: <math xmlns="http://www.w3.org/1998/Math/MathML"> <mrow> <mtext>1</mtext><msup> <mrow> <mtext>.25*B</mtext></mrow> <mtext>2</mtext> </msup> <mtext>=</mtext><mn>0.7</mn><mo>*</mo><mtext>MC/PF</mtext></mrow> </math> .</p>
+
+<p>Solving: <math xmlns="http://www.w3.org/1998/Math/MathML"> <mrow> <mtext>B=</mtext><msup> <mrow> <mo stretchy="false">(</mo><mn>0.56</mn><mo>*</mo><msub> <mtext>M</mtext> <mtext>c</mtext> </msub> <mtext>/PF)</mtext></mrow> <mrow> <mn>1</mn><mo>/</mo><mn>2</mn></mrow> </msup> </mrow> </math></p>
+
+<p>And so, using “real-world" data for powder factor and burden-to-spacing ratio, we are able to estimate a reasonable starting point in our design. Please remember that the constant, 0.56, in this equation is only valid for this example.</p>
+
+<p>Here are a couple of other things to keep in mind. The degree of fragmentation will depend on the interrelationship among powder factor, burden, and spacing. We could, as an extreme case, choose to drill one hole of say 48” in diameter and pack in with explosives. The number might look good in terms of the powder factor, but what is likely to be the outcome?</p>
+
+<p>This is why it’s useful to calculate these parameters in different ways, using not only Ash’s formulas but also using the fundamental definition of powder factor and available handbook data.</p>
+
+<p>Clearly, it's a bit of an art, and you will go through iterations before “perfecting” your design. Nonetheless, there is a solid scientific approach to get you reasonably close.</p>
+</div>
+      
+  <nav id="book-navigation-2" class="book-navigation" role="navigation" aria-labelledby="book-label-2">
+    
+          <h2 class="visually-hidden" id="book-label-2">Book traversal links for 6.3.1: Bench Blasting</h2>
+      <ul class="book-pager">
+              <li class="book-pager__item book-pager__item--previous">
+          <a href="/node/867" rel="prev" title="Go to previous page"><b>‹</b> Lesson 6.3: The Design of Blast Rounds</a>
+        </li>
+                    <li class="book-pager__item book-pager__item--center">
+          <a href="/node/867" title="Go to parent page">Up</a>
+        </li>
+                    <li class="book-pager__item book-pager__item--next">
+          <a href="/node/870" rel="next" title="Go to next page">6.3.2: Drift Round Blast Design <b>›</b></a>
+        </li>
+          </ul>
+      </nav>
+
+  </div>
+</article>
+
+    </div>
+  </div>
+
+  </div>
+
+          </section>
+        </main>
+                  <div id="sidebar-first" class="column sidebar">
+            <aside class="section" role="complementary">
+                <div class="region region-sidebar-first">
+    <div class="search-block-form block block-search container-inline" data-drupal-selector="search-block-form" id="block-bartik-search" role="search">
+  
+      <h2>Search</h2>
+    
+    <div class="content container-inline">
+        <form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8" class="search-form search-block-form">
+  <div class="js-form-item form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input class="search-form__submit button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" />
+</div>
+
+</form>
+
+  
+  </div>
+</div>
+<div id="block-booknavigation" class="block block-book block-book-navigation">
+  
+    
+      <div class="content">
+      
+              <ul class="menu">
+                    <li class="menu-item menu-item--collapsed">
+        <a href="/node/3" hreflang="und">Module 1: Introduction to the Mining Industry</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/6" hreflang="und">Module 2: The Life Cycle of a Mine and Related Matters</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/517" hreflang="und">Module 3: Prospecting and Exploration</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/524" hreflang="und">Module 4: Development</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/525" hreflang="und">Module 5: Unit and Auxiliary Operations</a>
+              </li>
+                <li class="menu-item menu-item--expanded menu-item--active-trail">
+        <a href="/node/526" hreflang="und">Module 6: Explosives and Blasting</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/node/813" hreflang="und">Module 6 Overview</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/546" hreflang="und">Lesson 6.1: The Big Bang</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/684" hreflang="und">Lesson 6.2: Explosives</a>
+              </li>
+                <li class="menu-item menu-item--expanded menu-item--active-trail">
+        <a href="/node/867" hreflang="und">Lesson 6.3: The Design of Blast Rounds</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--active-trail">
+        <a href="/node/869" hreflang="und">6.3.1: Bench Blasting</a>
+              </li>
+                <li class="menu-item">
+        <a href="/node/870" hreflang="und">6.3.2: Drift Round Blast Design</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/868" hreflang="und">Lesson 6.4: Blasting Patterns</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/873" hreflang="und">Lesson 6.5: Fire in the Hole</a>
+              </li>
+                <li class="menu-item">
+        <a href="/node/549" hreflang="und">Module 6 Summary</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/527" hreflang="und">Module 7: Surface Mining</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/694" hreflang="und">Module 8: Underground Mine Development</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/917" hreflang="und">Module 9: Sustainability</a>
+              </li>
+        </ul>
+  
+
+
+    </div>
+  </div>
+
+  </div>
+
+            </aside>
+          </div>
+                      </div>
+    </div>
+        <footer class="site-footer">
+      <div class="layout-container">
+                          <div class="site-footer__bottom">
+              <div class="region region-footer-fifth">
+    <nav role="navigation" aria-labelledby="block-bartik-footer-menu" id="block-bartik-footer" class="block block-menu navigation menu--footer">
+            
+  <h2 class="visually-hidden" id="block-bartik-footer-menu">Footer menu</h2>
+  
+
+      <div class="content">
+        <div class="menu-toggle-target menu-toggle-target-show" id="show-block-bartik-footer"></div>
+    <div class="menu-toggle-target" id="hide-block-bartik-footer"></div>
+    <a class="menu-toggle" href="#show-block-bartik-footer">Show &mdash; Footer menu</a>
+    <a class="menu-toggle menu-toggle--hide" href="#hide-block-bartik-footer">Hide &mdash; Footer menu</a>
+    
+              <ul class="clearfix menu">
+                    <li class="menu-item">
+        <a href="/contact" data-drupal-link-system-path="contact">Contact</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+</nav>
+<div id="block-bartik-powered" role="complementary" class="block block-system block-system-powered-by-block">
+  
+    
+      <div class="content">
+      <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>
+    </div>
+  </div>
+
+  </div>
+
+          </div>
+              </div>
+    </footer>
+  </div>
+</div>
+
+  </div>
+
+    
+    
+  </body>
+</html>

@@ -1,0 +1,37 @@
+{
+    "library_id": [
+        {
+            "value": 28
+        }
+    ],
+    "parameters": [
+        {
+            "value": "{\"taskDescription\":\"<p>Re-visit your knowledge of this representative list of factors that are considered when choosing access to mines.&nbsp;<\\\/p>\\n\",\"overallFeedback\":[{\"from\":0,\"to\":100}],\"checkAnswer\":\"Check\",\"tryAgain\":\"Retry\",\"showSolution\":\"Show solution\",\"dropZoneIndex\":\"Drop Zone @index.\",\"empty\":\"Drop Zone @index is empty.\",\"contains\":\"Drop Zone @index contains draggable @draggable.\",\"draggableIndex\":\"Draggable @text. @index of @count draggables.\",\"tipLabel\":\"Show tip\",\"correctText\":\"Correct!\",\"incorrectText\":\"Incorrect!\",\"resetDropTitle\":\"Reset drop\",\"resetDropDescription\":\"Are you sure you want to reset this drop zone?\",\"grabbed\":\"Draggable is grabbed.\",\"cancelledDragging\":\"Cancelled dragging.\",\"correctAnswer\":\"Correct answer:\",\"feedbackHeader\":\"Feedback\",\"behaviour\":{\"enableRetry\":true,\"enableSolutionsButton\":true,\"enableCheckButton\":true,\"instantFeedback\":false},\"scoreBarLabel\":\"You got :num out of :total points\",\"textField\":\"If the seam or vein intersects the surface, a *drift or adit* will be the choice.\\nIf the seam is close to the surface, i.e., typically within a few hundred feet, a *box cut* will receive serious consideration.\\nThe construction cost of a *shaft:slope or shaft?* is about three times the cost of a *slope:slope or shaft?*; however, the construction footage of a *slope:slope or shaft?* is generally at least three times that of a *shaft:slope or shaft?*.\\nThe deeper the orebody, the more likely that a *shaft* will be used.\\nTransporting large equipment into a mine is more easily accomplished with a *slope* rather than a shaft. Large equipment must be cut into pieces and reassembled underground if there is no *slope* access.\\nConstruction of a slope is more challenging in difficult ground conditions, and could sway the decision to choose a *shaft*.\\nA *shaft* limits the materials handling to batch operations, which is a serious limitation, as discussed earlier in the semester.\\nQuite a bit of real estate is required to put in a *slope*, and a ramp can be constructed under a much smaller surface footprint.\\nA *ramp* precludes continuous haulage, which can be a disadvantage.\\nCoal mines require two means of access, and it is common for deep mines to use both a slope and a *shaft*. This allows them to realize the benefits of both means of access.\"}"
+        }
+    ],
+    "filtered_parameters": [
+        {
+            "value": "{\"taskDescription\":\"<p>Re-visit your knowledge of this representative list of factors that are considered when choosing access to mines.&nbsp;<\\\/p>\\n\",\"overallFeedback\":[{\"from\":0,\"to\":100}],\"checkAnswer\":\"Check\",\"tryAgain\":\"Retry\",\"showSolution\":\"Show solution\",\"dropZoneIndex\":\"Drop Zone @index.\",\"empty\":\"Drop Zone @index is empty.\",\"contains\":\"Drop Zone @index contains draggable @draggable.\",\"tipLabel\":\"Show tip\",\"correctText\":\"Correct!\",\"incorrectText\":\"Incorrect!\",\"resetDropTitle\":\"Reset drop\",\"resetDropDescription\":\"Are you sure you want to reset this drop zone?\",\"grabbed\":\"Draggable is grabbed.\",\"cancelledDragging\":\"Cancelled dragging.\",\"correctAnswer\":\"Correct answer:\",\"feedbackHeader\":\"Feedback\",\"behaviour\":{\"enableRetry\":true,\"enableSolutionsButton\":true,\"enableCheckButton\":true,\"instantFeedback\":false},\"scoreBarLabel\":\"You got :num out of :total points\",\"textField\":\"If the seam or vein intersects the surface, a *drift or adit* will be the choice.\\nIf the seam is close to the surface, i.e., typically within a few hundred feet, a *box cut* will receive serious consideration.\\nThe construction cost of a *shaft:slope or shaft?* is about three times the cost of a *slope:slope or shaft?*; however, the construction footage of a *slope:slope or shaft?* is generally at least three times that of a *shaft:slope or shaft?*.\\nThe deeper the orebody, the more likely that a *shaft* will be used.\\nTransporting large equipment into a mine is more easily accomplished with a *slope* rather than a shaft. Large equipment must be cut into pieces and reassembled underground if there is no *slope* access.\\nConstruction of a slope is more challenging in difficult ground conditions, and could sway the decision to choose a *shaft*.\\nA *shaft* limits the materials handling to batch operations, which is a serious limitation, as discussed earlier in the semester.\\nQuite a bit of real estate is required to put in a *slope*, and a ramp can be constructed under a much smaller surface footprint.\\nA *ramp* precludes continuous haulage, which can be a disadvantage.\\nCoal mines require two means of access, and it is common for deep mines to use both a slope and a *shaft*. This allows them to realize the benefits of both means of access.\"}"
+        }
+    ],
+    "disabled_features": [
+        {
+            "value": 0
+        }
+    ],
+    "title": [
+        {
+            "value": "Lesson 8 Factors of Access"
+        }
+    ],
+    "authors": [],
+    "source": [],
+    "year_from": [],
+    "year_to": [],
+    "license": [],
+    "license_version": [],
+    "changes": [],
+    "license_extras": [],
+    "author_comments": [],
+    "default_language": []
+}
